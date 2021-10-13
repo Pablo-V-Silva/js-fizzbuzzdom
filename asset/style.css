@@ -25,10 +25,17 @@ li.square {
   height: 100px;
   text-align: center;
   line-height: 100px;
-  background-color: #1389B2;
   margin: 1rem;
+}
+
+.blue {
+  background-color: #1389B2;
 }
 
 .lightgreen {
   background-color: #0BD6A1;
+}
+
+.yellow {
+  background-color: #FFD166;
 }
