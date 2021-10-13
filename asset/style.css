@@ -2,13 +2,33 @@ body {
   background-color: #083B4C;
 }
 
+.contain {
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
 .list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 li.square {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   text-align: center;
-  line-height: 50px;
+  line-height: 100px;
+  background-color: #1389B2;
+  margin: 1rem;
+}
+
+.lightgreen {
+  background-color: #0BD6A1;
 }
